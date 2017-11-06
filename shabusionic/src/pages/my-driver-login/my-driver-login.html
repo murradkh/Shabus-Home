@@ -1,0 +1,27 @@
+
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="images/icon.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title text-center>שבוס - התחברות</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding >
+
+    <img src="images/icon.png">
+      <ion-input type="text" placeholder="שם פרטי ושם משפחה" text-center margin-top [(ngModel)]="username"></ion-input>
+      <ion-input type="password" placeholder="סיסמא" text-center margin-top [(ngModel)]="password"></ion-input>
+ 
+    <button ion-button block  (click)="onsignin()" color="primary" margin-top>התחבר</button>
+
+</ion-content>
