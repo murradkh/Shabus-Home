@@ -18,7 +18,7 @@ We're trying to use the best tools and practices in order to produce a quality e
 |Category|Status|
 |---|---|
 | Version Control System| git & github |
-| Recommended IDE | [VSCode](https://code.visualstudio.com) |[VSCode](https://code.visualstudio.com)|
+| Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/) |
 | Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/jce-il/SHABUS_INFO_APP) |
 | Issues | [![GitHub issues](https://img.shields.io/github/issues/jce-il/project-template.svg?style=flat)](https://github.com/jce-il/project-template/issues) |
 | Project Management Board| [here](https://github.com/Shaileh/Shabus-Terminal-APP/projects/1) |
