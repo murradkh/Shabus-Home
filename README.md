@@ -10,7 +10,7 @@ Bus Terminal application for Shabus -  Cooperative Transportation Association of
 
 - This repository represents our final project as seniors in the B.Sc in Software Engineering program at Azrieli- Jerusalem College of Engineering at the year of 2017-2018.
 
- ##Tools & Practices
+ ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
 (replace 'jce-il/project-template' with your 'username/repo' and register to the relevant services)
 
