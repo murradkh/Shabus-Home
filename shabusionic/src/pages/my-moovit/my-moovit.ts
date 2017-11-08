@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { SMS } from '@ionic-native/sms';
 
 @IonicPage()
 @Component({
@@ -11,16 +11,21 @@ export class MyMoovitPage {
 
 private phoneNumber:string;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+              public navParams: NavParams,
+              private sms:SMS) {
     this.phoneNumber = this.navParams.data;
-    // console.log("phone is:" + this.navParams.data);
+
   }
 
   ionViewDidLoad() {
-    // console.log('ionViewDidLoad MyMoovitPage');
+
   }
 
-  goBack(){
+  goBack(status:string){
+    if(status=="yes"){
+this.sms.send(this.phoneNumber,"בקשת הצטרפות לשבוס: \n https://app.shabus.co.il/register/").then().catch();
+    }
     this.navCtrl.pop();
   }
 

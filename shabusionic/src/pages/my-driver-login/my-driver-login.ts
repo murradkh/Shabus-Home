@@ -25,7 +25,7 @@ constructor(private alert:AlertController,
   }
 
 ionViewDidLoad() {
-    setTimeout(() => this.splash = false, 3500);
+    setTimeout(() => this.splash = false, 3700);
    // this.menuCtrl.enable(false, 'myMenu');
   }
 

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { HttpModule} from '@angular/http';
-
+import { SMS } from '@ionic-native/sms';
 import { MyApp } from './app.component';
 import { Authunication} from '../services/serverside';
 import { MyDriverLoginPage } from '../pages/my-driver-login/my-driver-login';//--------//
@@ -46,6 +46,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     StatusBar,
     SplashScreen,
    Authunication,
+   SMS,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
