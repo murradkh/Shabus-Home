@@ -6,7 +6,7 @@
  ![project logo (this one for is taken from basecamp - a project management service)](https://www.startisrael.co.il/uploads/images/logo_svg.png)
  
 Bus Terminal application for Shabus -  Cooperative Transportation Association of Jerusalem 
-- This repository represents our final project as seniors in the B.Sc in Software Engineering program at Jerusalem College of Engineering at the year of 2017-2018.
+- This repository represents our final project as seniors in the B.Sc in Software Engineering program at Azrieli- Jerusalem College of Engineering at the year of 2017-2018.
 
 ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
