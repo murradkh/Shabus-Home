@@ -6,6 +6,10 @@
  ![project logo (this one for is taken from basecamp - a project management service)](https://www.startisrael.co.il/uploads/images/logo_svg.png)
  
 Bus Terminal application for Shabus -  Cooperative Transportation Association of Jerusalem 
+-About the application:
+    Shabus Terminal is a mobile application that manages the travels of shabus organization.The software will be installed on a terminal 
+    that will be attached to the organization bus. It will supply a lot of useful services sush as driver/passenger identification, path
+    computation, real-time report and many more.
 - This repository represents our final project as seniors in the B.Sc in Software Engineering program at Azrieli- Jerusalem College of Engineering at the year of 2017-2018.
 
 ## Tools & Practices
@@ -16,7 +20,7 @@ We're trying to use the best tools and practices in order to produce a quality e
 |---|---|
 | Version Control System| git & github |
 | Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/) |
-| Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/Shabus-Teminal-App/Lobby#) |
+| Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/jce-il/SHABUS_INFO_APP) |
 | Project Management Board| [here](https://github.com/Shaileh/Shabus-Terminal-APP/projects/1) |
 | Contributors | [![GitHub contributors](https://img.shields.io/github/contributors/jce-il/project-template.svg)](https://github.com/jce-il/project-template/graphs/contributors)|
 | Documnetation | [![Inline docs](http://inch-ci.org/github/jce-il/project-template.svg?branch=master)](http://inch-ci.org/github/jce-il/project-template) |
