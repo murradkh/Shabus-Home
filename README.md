@@ -6,6 +6,13 @@
  ![project logo (this one for is taken from basecamp - a project management service)](https://www.startisrael.co.il/uploads/images/logo_svg.png)
  
 Bus Terminal application for Shabus -  Cooperative Transportation Association of Jerusalem 
+
+ ## About Us:
+  Shabus Terminal is a mobile application that manages the travels of shabus organization. The software will be installed on a Terminal   that will be attached to the organization bus.It will supply useful services such as driver/passenger identification,path computation,
+  real-time report and many more great features.
+ 
+
+
   
 
 - This repository represents our final project as seniors in the B.Sc in Software Engineering program at Azrieli- Jerusalem College of Engineering at the year of 2017-2018.
