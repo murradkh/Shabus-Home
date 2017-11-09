@@ -41,8 +41,6 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 |Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/)
 |Mobile Platforms| Android,IOS,Windows|
 
-## Please visit our [live application](https://www.shabus.co.il/)
-- not final yet-> Alright, currently only a landing page...
 
 
 ## Disclaimer
