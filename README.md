@@ -15,7 +15,7 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
   real-time report and many more great features.
  
 
-- This repository represents our final project as seniors in the B.Sc in Software Engineering program at the year of 2017-2018 at [Azrieli- Jerusalem College of Engineering.] (https://www.jce.ac.il/)
+- This repository represents our final project as seniors in the B.Sc in Software Engineering program at the year of 2017-2018 at [Azrieli- Jerusalem College of Engineering.](https://www.jce.ac.il/)
 
 ## Staff:
 - Main project developers repository masters
