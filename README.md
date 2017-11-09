@@ -44,7 +44,7 @@ not final yet-> (We're trying to use the best tools and practices in order to pr
 |Mobile Platforms| Android,IOS,Windows|
 
 ## Please visit our [live application](https://www.shabus.co.il/)
-- Alright, currently only a landing page...
+- not final yet-> Alright, currently only a landing page...
 
 
 ## Disclaimer
@@ -52,9 +52,9 @@ not final yet-> This project is developed as part of the requirements for a [sof
 
 Please visit our wiki for furthur project info:
 
-### [User Manual](../../wiki/user-manual) 
+#### [User Manual](../../wiki/user-manual) 
 
-### [Team Page](../../wiki/team)
+#### [Team Page](../../wiki/team)
 
 ### Project Documents
 - [Project Idea](../../blob/master/shabus.pdf)
