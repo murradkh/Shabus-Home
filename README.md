@@ -13,7 +13,8 @@ Bus Terminal application for Shabus -  Cooperative Transportation Association of
  
 
 ## Staff:
-[Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=460&v=4)
+### Murrad khalil &emsp; &emsp; &emsp; &emsp; Ibrahim Abu Rmalla </br> 
+![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=460&v=4)![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)
 
 
 
