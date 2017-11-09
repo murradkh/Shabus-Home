@@ -37,7 +37,7 @@ not final yet-> (We're trying to use the best tools and practices in order to pr
 | Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/) |
 | Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/Shabus-Teminal-App/Lobby) |
 | Project Management Board| [here](https://github.com/murradkh/Shabus-Teminal-App/projects) |
-| Contributors | [![GitHub contributors](https://img.shields.io/github/contributors/jce-il/project-template.svg)](https://github.com/jce-il/project-template/graphs/contributors)|
+| Contributors | [Here](https://github.com/murradkh/Shabus-Teminal-App/graphs/contributors)
 | Documnetation | [![Inline docs](http://inch-ci.org/github/jce-il/project-template.svg?branch=master)](http://inch-ci.org/github/jce-il/project-template) |
 | Diary | [Calender](https://www.my-diary.org/read/d/929360)|
 |Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/)
