@@ -31,7 +31,7 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 
 |Category|Status|
 |---|---|
-| Version Control System| git & github |
+| Version Control System| [git](https://git-scm.com/) & [github](https://github.com/) |
 | Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/) |
 | Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/Shabus-Teminal-App/Lobby) |
 | Project Management Board| [Here](https://github.com/murradkh/Shabus-Teminal-App/projects) |
