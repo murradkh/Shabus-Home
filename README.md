@@ -48,9 +48,9 @@ not final yet-> (We're trying to use the best tools and practices in order to pr
 
 
 ## Disclaimer
-This project is developed as part of the requirements for a [software engineering course](https://github.com/jce-il/se-class/wiki) at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
+not final yet-> This project is developed as part of the requirements for a [software engineering course](https://github.com/jce-il/se-class/wiki) at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
 
-Please visit our wiki for furthur project info: 
+Please visit our wiki for furthur project info:
 
 ### [User Manual](../../wiki/user-manual) 
 
