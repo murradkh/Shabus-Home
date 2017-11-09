@@ -20,7 +20,7 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 
 ## Staff
 - Developers
-#### Murrad khalil &emsp; &emsp; &emsp; &emsp; &emsp; Ibrahim Abu Rmalla </br> 
+#### Murrad khalil &emsp; &emsp; &emsp; &emsp; &emsp; Ibrahim Abu Rmaileh </br> 
 ![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=460&v=4)![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)</br>
 - Acadamic Advisor
 #### Shay Tavor </br> ![Shay Tavor](https://avatars3.githubusercontent.com/u/10141163?s=200&v=4)
