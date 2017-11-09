@@ -8,11 +8,6 @@
 Bus Terminal application for Shabus -  Cooperative Transportation Association of Jerusalem 
 
  ## About the Association
-    Shabus is a Cooperative Transportation Association in Jerusalem, it offers a travel services to jerusalem residences that have no 
-    private transportaion method and have no religous-relative problem to travel on Saturdays (Shabat).It is non-profit Association 
-    which located in Ein-Karem. It has a lot of travel paths that spreads all around Israel.  
-
-
 
  ## About Us
   Shabus Terminal is a mobile application that manages the travels of shabus organization. The software will be installed on a Terminal   that will be attached to the organization bus.It will supply useful services such as driver/passenger identification,path computation,
