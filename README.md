@@ -15,12 +15,18 @@ Bus Terminal application for Shabus -  Cooperative Transportation Association of
 - This repository represents our final project as seniors in the B.Sc in Software Engineering program at Azrieli- Jerusalem College of Engineering at the year of 2017-2018.
 
 ## Staff:
+- Main project developers repository masters
 ### Murrad khalil &emsp; &emsp; &emsp; &emsp; Ibrahim Abu Rmalla </br> 
-![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=460&v=4)![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)
+![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=460&v=4)![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)</br>
+- Acadamic Advisor
+### Shay Tavor </br> ![Shay Tavor](https://avatars3.githubusercontent.com/u/10141163?s=200&v=4)
+- CEO of Shabus
+### Nadav Cohen </br>
+![Nadav Cohen](https://avatars1.githubusercontent.com/u/12788571?s=200&v=4)
 
 
 
-  
+
 
  ## Tools & Practices
 We're trying to use the best tools and practices in order to produce a quality enginneered product.
