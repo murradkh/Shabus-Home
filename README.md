@@ -21,7 +21,7 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 ## Staff
 . Developer &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;.  Developer&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;. Acadamic Advisor&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;. CEO of Shabus
 #### Murrad khalil &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;Ibrahim Abu Rmaileh&emsp; &emsp; &emsp; &emsp;Shay Tavor&emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Nadav Cohen</br> 
-![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=200&v=4)&emsp;&emsp;![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)&emsp;&emsp;![Shay Tavor](https://avatars3.githubusercontent.com/u/10141163?s=200&v=4)&emsp;&emsp;![Nadav Cohen](https://avatars0.githubusercontent.com/u/12788571?s=200&v=4)
+![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=200&v=4)&emsp;&emsp;![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)&emsp;&emsp;![Shay Tavor](https://avatars3.githubusercontent.com/u/10141163?s=200&v=4)&emsp;&emsp;![Nadav Cohen][https://avatars0.githubusercontent.com/u/12788571?s=200&v=4]
 - CEO of Shabus
 #### Nadav Cohen </br>
 
