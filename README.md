@@ -36,7 +36,7 @@ not final yet-> (We're trying to use the best tools and practices in order to pr
 | Version Control System| git & github |
 | Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/) |
 | Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/Shabus-Teminal-App/Lobby) |
-| Project Management Board| [here](https://github.com/murradkh/Shabus-Teminal-App/projects) |
+| Project Management Board| [Here](https://github.com/murradkh/Shabus-Teminal-App/projects) |
 | Contributors | [Here](https://github.com/murradkh/Shabus-Teminal-App/graphs/contributors)
 | Documnetation | [![Inline docs](http://inch-ci.org/github/jce-il/project-template.svg?branch=master)](http://inch-ci.org/github/jce-il/project-template) |
 | Diary | [Calender](https://www.my-diary.org/read/d/929360)|
