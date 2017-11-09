@@ -18,8 +18,8 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 - This repository represents our final project as seniors in the B.Sc in Software Engineering program at the year of 2017-2018 at [Azrieli- Jerusalem College of Engineering.](https://www.jce.ac.il/)
 - This repository will be the "Information-Station" of our whole project. any relevant info about the development process will be found here under it's relevant branch in [Wiki.](https://github.com/murradkh/Shabus-Teminal-App/wiki) As the software code,documents,diagrams and prototype realeses will be prodcasted automatically to this repositry.
 
-## Staff:
-- Main project developers repository masters
+## Staff
+- Developers
 #### Murrad khalil &emsp; &emsp; &emsp; &emsp; &emsp; Ibrahim Abu Rmalla </br> 
 ![Murrad khalil](https://avatars2.githubusercontent.com/u/26089554?s=460&v=4)![Ibrahim](https://avatars3.githubusercontent.com/u/26056359?s=200&v=4)</br>
 - Acadamic Advisor
