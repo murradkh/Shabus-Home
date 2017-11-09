@@ -22,7 +22,6 @@ Bus Terminal application for Shabus -  Cooperative Transportation Association of
 ### Shay Tavor </br> ![Shay Tavor](https://avatars3.githubusercontent.com/u/10141163?s=200&v=4)
 - CEO of Shabus
 ### Nadav Cohen </br>
-![Nadav Cohen](https://avatars1.githubusercontent.com/u/12788571?s=200&v=4)
 
 
 
