@@ -41,27 +41,3 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 |Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/)
 |Mobile Platforms| Android,IOS,Windows|
 
-
-
-## Disclaimer
-not final yet-> This project is developed as part of the requirements for a [software engineering course](https://github.com/jce-il/se-class/wiki) at the software engineering department - [Azrieli College of Engineering](http://www.jce.ac.il/), Jerusalem, Israel.
-
-Please visit our wiki for furthur project info:
-
-#### [User Manual](../../wiki/user-manual) 
-
-#### [Team Page](../../wiki/team)
-
-### Project Documents
-- [Project Idea](../../blob/master/shabus.pdf)
-- [Project Inception](../../wiki/Inception)
-- [Software Requirements Specification](../../wiki/srs)
-- [Software Design Specification](../../wiki/sds)
-
-### Iteration Pages
-- [Iteration 0 - ZFR](../../wiki/Iteration-0---ZFR)
-- [Iteration 1 - MVP](../../wiki/Iteration-1---MVP)
-- [Iteration 2 - Functional Implementations](../../wiki/Iteration-2)
-- [Iteration 3 - ](../../wiki/Iteration-3)
-- [Iteration 4 - ](../../wiki/Iteration-4)
-
