@@ -12,6 +12,10 @@ Bus Terminal application for Shabus -  Cooperative Transportation Association of
   real-time report and many more great features.
  
 
+## Staff:
+![Murrad khalil](https://avatars0.githubusercontent.com/u/26089554?s=40&v=4)
+
+
 
   
 
@@ -29,7 +33,7 @@ We're trying to use the best tools and practices in order to produce a quality e
 | Project Management Board| [here](https://github.com/Shaileh/Shabus-Terminal-APP/projects/1) |
 | Contributors | [![GitHub contributors](https://img.shields.io/github/contributors/jce-il/project-template.svg)](https://github.com/jce-il/project-template/graphs/contributors)|
 | Documnetation | [![Inline docs](http://inch-ci.org/github/jce-il/project-template.svg?branch=master)](http://inch-ci.org/github/jce-il/project-template) |
-| Diary | [!Calender](https://calendar.google.com/calendar/render#main_7)|
+| Diary | [Calender](https://calendar.google.com/calendar/render#main_7)|
 
 ## Please visit our [live application](https://www.shabus.co.il/)
 - Alright, currently only a landing page...
