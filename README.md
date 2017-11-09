@@ -34,7 +34,7 @@ We're trying to use the best tools and practices in order to produce a quality e
 | Project Management Board| [here](https://github.com/murradkh/Shabus-Teminal-App/projects) |
 | Contributors | [![GitHub contributors](https://img.shields.io/github/contributors/jce-il/project-template.svg)](https://github.com/jce-il/project-template/graphs/contributors)|
 | Documnetation | [![Inline docs](http://inch-ci.org/github/jce-il/project-template.svg?branch=master)](http://inch-ci.org/github/jce-il/project-template) |
-| Diary | [Calender](https://calendar.google.com/calendar/render#main_7)|
+| Diary | [Calender](https://www.my-diary.org/read/d/929360)|
 |Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/)
 |Mobile Platforms| Android,IOS,Windows|
 
