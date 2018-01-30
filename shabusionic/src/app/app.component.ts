@@ -8,7 +8,6 @@ import { MyDriverLoginPage } from '../pages/my-driver-login/my-driver-login';//-
 import { MyClientPage } from '../pages/my-client/my-client';//--------//
 import { MyCouponsPage } from '../pages/my-coupons/my-coupons';//--------//
 import { MyShekelPerKmPage } from '../pages/my-shekel-per-km/my-shekel-per-km';//--------//
-
 import { Geolocation } from '@ionic-native/geolocation';
 
 
@@ -19,10 +18,9 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
  
 private  rootPage: any = MyDriverLoginPage;
-private  interval:number;
+private  interval:any;
 private pages: Array<{title: string, component: any}>;
-
-  public isToggled : boolean;
+public isToggled : boolean;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,private auth:Authunication, public menuCtrl:MenuController, private geolocation:Geolocation) {
     this.isToggled = false;
