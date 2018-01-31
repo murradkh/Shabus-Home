@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams,AlertController } from 'ionic-angular';
+import { IonicPage, NavController,AlertController } from 'ionic-angular';
 import { Authunication} from '../../services/serverside'
 import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
 import{ LoadingController} from 'ionic-angular';
@@ -12,7 +12,7 @@ import{ LoadingController} from 'ionic-angular';
 export class MyClientPage {
 
   clientCounter: number=1;
-  phoneNumber: string=undefined;
+  phoneNumber: string="";
 
   constructor(public navCtrl: NavController,
               private auth:Authunication,
@@ -24,7 +24,7 @@ export class MyClientPage {
     addClient(){
       if(this.clientCounter<5)
         this.clientCounter++;
-      //console.log(this.clientCounter);
+      
     }
 
   removeClient(){

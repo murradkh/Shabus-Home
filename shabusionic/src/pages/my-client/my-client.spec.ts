@@ -1,28 +1,21 @@
-import { async, TestBed } from '@angular/core/testing';
-import { IonicModule, Platform } from 'ionic-angular';
+import {  TestBed, ComponentFixture } from '@angular/core/testing';
+import { IonicModule } from 'ionic-angular';
 import {} from 'jasmine';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
 import { MyClientPage } from './my-client';
-import { IonicPage, NavController,AlertController } from 'ionic-angular';
+import {  NavController,AlertController } from 'ionic-angular';
 import { Authunication} from '../../services/serverside'
 import{ LoadingController} from 'ionic-angular';
-import { IonicPageModule } from 'ionic-angular';
 import { AlertControllerMock,NavControllerMock, LoadingControllerMock} from 'ionic-mocks';
 import { MockBackend } from '@angular/http/testing';
-import { HttpModule, Http, BaseRequestOptions, XHRBackend } from '@angular/http';
-
-import {
-  PlatformMock,
-  StatusBarMock,
-  SplashScreenMock
-} from '../../../test-config/mocks-ionic';
+import { HttpModule, XHRBackend } from '@angular/http';
+import {DebugElement} from "@angular/core";
+import {By} from "@angular/platform-browser";
 
 
 describe('MyClientPage Component:', () => {
-    let fixture;
-    let component;
-    
+    let fixture:ComponentFixture<MyClientPage>;
+    let component:MyClientPage;
+    let el: DebugElement; 
   
     beforeEach(() => {
       TestBed.configureTestingModule({
@@ -32,7 +25,7 @@ describe('MyClientPage Component:', () => {
             IonicModule.forRoot(MyClientPage)
         ],
         providers: [
-          { provide: NavController, useClass: NavController },
+          { provide: NavController, useClass: NavControllerMock },
           { provide: LoadingController, useClass: LoadingControllerMock },
           { provide: AlertController, useClass: AlertControllerMock },
           { provide: XHRBackend, useClass: MockBackend },
@@ -44,6 +37,9 @@ describe('MyClientPage Component:', () => {
     beforeEach(() => {
       fixture = TestBed.createComponent(MyClientPage);
       component = fixture.componentInstance;
+    //   let el: DebugElement; 
+    //   el = fixture.debugElement.query(By.css('ion-icon')); 
+    
     });
 
     it('MyClientPage should be created', () => {
@@ -56,8 +52,8 @@ describe('MyClientPage Component:', () => {
             //    component.removeClient();
             // expect(component.clientCounter).toBe(1);
         });
-        it('PhoneNumer have to undefined', () => {
-            expect(component.PhoneNumer).not.toBeDefined();
+        it('PhoneNumer have to defined', () => {
+            expect(component.phoneNumber).toBeDefined();
    });
 
 });
@@ -76,9 +72,14 @@ it("addClient function:Client Counter maximum have to be 5",()=>{
          component.removeClient();
          expect(component.clientCounter).toBeGreaterThan(0);
   });
-  xit("Send function:this function should call the navctrl.push function",()=>{
-    expect(component.navCtrl.push).toHaveBeenCalled();
   });
-});
+  describe("Checking the Template:",()=>{
+ 
 
+it("The title of the page Should be 'זיהוי נוסע'",()=>{
+ 
+    el = fixture.debugElement.query(By.css('ion-title')); 
+expect(el.nativeElement.textContent.trim()).toBe('זיהוי נוסע');
+});
+  });
   });

@@ -17,7 +17,6 @@ import { Geolocation } from '@ionic-native/geolocation';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
  
-private  rootPage: any = MyDriverLoginPage;
 private  interval:any;
 private pages: Array<{title: string, component: any}>;
 public isToggled : boolean;
