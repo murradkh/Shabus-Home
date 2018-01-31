@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams,AlertController } from 'ionic-angular';
 import { Authunication} from '../../services/serverside'
 import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
-import{ LoadingController} from 'ionic-angular'
+import{ LoadingController} from 'ionic-angular';
 
 @IonicPage()
 @Component({
@@ -11,22 +11,15 @@ import{ LoadingController} from 'ionic-angular'
 })
 export class MyClientPage {
 
-  clientCounter: number;
-  phoneNumber: string="";
+  clientCounter: number=1;
+  phoneNumber: string=undefined;
 
   constructor(public navCtrl: NavController,
-              public navParams: NavParams,
               private auth:Authunication,
               private Loadingcontrol:LoadingController,
               private alert:AlertController) {
 
-    this.clientCounter=1;
   }
-
-
-
-
-
 
     addClient(){
       if(this.clientCounter<5)
@@ -39,11 +32,7 @@ export class MyClientPage {
       this.clientCounter--;
     }
   }
-
-
   send(){
-
-
      const loading=this.Loadingcontrol.create({
 content:' ...בדיקת ניתונים',
 duration:2500

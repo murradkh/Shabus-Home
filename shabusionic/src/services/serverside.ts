@@ -5,8 +5,8 @@ import firebase from 'firebase';
 
 @Injectable()
 export class Authunication {
-
-constructor(private http:Http){
+ public   authnicated:boolean=false;
+    constructor(private http:Http){
 
 }
 
@@ -17,7 +17,6 @@ logout(){
 firebase.auth().signOut();
 }
 getuser(){
-
     return firebase.auth().currentUser;
 }
 

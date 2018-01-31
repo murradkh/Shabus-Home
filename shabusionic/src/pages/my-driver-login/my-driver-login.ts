@@ -37,7 +37,7 @@ content:' ...מתחבר'
      loading.present();
     this.auth.signin(this.username,this.password).then(data => {
 loading.dismiss();
-
+this
   setTimeout( () => {
 
 const alert=this.alert.create({

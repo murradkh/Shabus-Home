@@ -24,7 +24,6 @@ public isToggled : boolean;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,private auth:Authunication, public menuCtrl:MenuController, private geolocation:Geolocation) {
     this.isToggled = false;
-    this.rootPage;
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
@@ -40,9 +39,10 @@ firebase.auth().onAuthStateChanged(user => {
   if(user){
     this.nav.setRoot(MyClientPage);
     menuCtrl.enable(true, 'myMenu');
+    this.auth.authnicated=true;
 }else{
     this.nav.setRoot(MyDriverLoginPage);
-
+this.auth.authnicated=false;
   }
 });
     // used for an example of ngFor and navigation

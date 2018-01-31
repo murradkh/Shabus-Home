@@ -15,14 +15,16 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 export class MyCouponsPage {
 
 
-  businesses: Array<string>;
-  chosenBusiness: number;
-  cardNumber: number;
-  phoneNumber: string;
+private  businesses: Array<string>=undefined;
+private  chosenBusiness: number=undefined;
+private  cardNumber: number=undefined;
+private  phoneNumber: string=undefined;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
-    this.businesses = ['business1', 'business2', 'business3', 'business4', 'business5']
-    this.chosenBusiness = -1;
+  constructor(public navCtrl: NavController, 
+          public navParams: NavParams, 
+          private alertCtrl: AlertController) {
+          this.businesses = ['business1', 'business2', 'business3', 'business4', 'business5']
+          this.chosenBusiness = -1;
   }
 
   ionViewDidLoad() {
