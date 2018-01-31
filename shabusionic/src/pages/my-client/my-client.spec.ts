@@ -28,8 +28,8 @@ describe('MyClientPage Component:', () => {
           { provide: NavController, useClass: NavControllerMock },
           { provide: LoadingController, useClass: LoadingControllerMock },
           { provide: AlertController, useClass: AlertControllerMock },
-          { provide: XHRBackend, useClass: MockBackend },
-            Authunication
+        //   { provide: XHRBackend, useClass: MockBackend },
+        //     Authunication
         ]
       })
     });
@@ -45,6 +45,7 @@ describe('MyClientPage Component:', () => {
     it('MyClientPage should be created', () => {
         expect(component instanceof MyClientPage).toBe(true);
       });
+
     describe('Checking initial values:', () => {
       it('Client Counter value have to be 1', () => {
         expect(component.clientCounter).toBe(1);
@@ -55,15 +56,13 @@ describe('MyClientPage Component:', () => {
         it('PhoneNumer have to defined', () => {
             expect(component.phoneNumber).toBeDefined();
    });
-
 });
+
 describe('Checking the functions validition:', () => {
 it("addClient function:Client Counter maximum have to be 5",()=>{
     component.addClient();
     expect(component.clientCounter).toBe(2);
-    component.addClient();
-    component.addClient();
-    component.addClient();
+    component.clientCounter=5;
     component.addClient();
     expect(component.clientCounter).toBeLessThan(6);
   });
@@ -75,11 +74,31 @@ it("addClient function:Client Counter maximum have to be 5",()=>{
   });
   describe("Checking the Template:",()=>{
  
-
 it("The title of the page Should be 'זיהוי נוסע'",()=>{
  
     el = fixture.debugElement.query(By.css('ion-title')); 
 expect(el.nativeElement.textContent.trim()).toBe('זיהוי נוסע');
+});
+
+it("Testing 'Change detection' of the PhoneNumber Input",()=>{
+  el=fixture.debugElement.query(By.css('ion-input'));
+  fixture.detectChanges();
+  expect(el.attributes["ng-reflect-model"]).toBe("");
+ component.phoneNumber="052";
+  fixture.detectChanges(); 
+  expect(el.attributes["ng-reflect-model"]).toBe("052");
+});
+xit("Testing 'Change detection' of the Add button",()=>{
+ //   el=fixture.debugElement.query(By.css("ion-item"));
+    
+    // expect(component.removeClient).toHaveBeenCalled();
+
+// console.log(el);
+// el=fixture.debugElement.query(By.css("ion-icon .add"));
+// console.log(el);
+});
+xit("Testing 'Change detection' of the Remove button",()=>{
+
 });
   });
   });

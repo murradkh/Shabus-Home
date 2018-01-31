@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController,AlertController } from 'ionic-angular';
-import { Authunication} from '../../services/serverside'
+// import { Authunication} from '../../services/serverside'
 import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
 import{ LoadingController} from 'ionic-angular';
 
@@ -15,7 +15,6 @@ export class MyClientPage {
   phoneNumber: string="";
 
   constructor(public navCtrl: NavController,
-              private auth:Authunication,
               private Loadingcontrol:LoadingController,
               private alert:AlertController) {
 
