@@ -7,7 +7,7 @@ import{ LoadingController} from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-my-client',
-  templateUrl: 'my-client.html',
+  templateUrl: 'my-client.html'
 })
 export class MyClientPage {
 

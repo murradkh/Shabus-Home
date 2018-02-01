@@ -89,8 +89,10 @@ it("Testing 'Change detection' of the PhoneNumber Input",()=>{
   expect(el.attributes["ng-reflect-model"]).toBe("052");
 });
 xit("Testing 'Change detection' of the Add button",()=>{
- //   el=fixture.debugElement.query(By.css("ion-item"));
-    
+    el=fixture.debugElement.query(By.css("ion-header"));
+    console.log(el);
+    el=fixture.debugElement.query(By.css("ion-content padding"));
+    console.log(el);
     // expect(component.removeClient).toHaveBeenCalled();
 
 // console.log(el);
