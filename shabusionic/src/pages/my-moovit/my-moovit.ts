@@ -23,9 +23,9 @@ private phoneNumber:string;
   }
 
   goBack(status:string){
-    if(status=="yes"){
-this.sms.send(this.phoneNumber,"בקשת הצטרפות לשבוס: \n https://app.shabus.co.il/register/").then().catch();
-    }
+//     if(status=="yes"){
+// this.sms.send(this.phoneNumber,"בקשת הצטרפות לשבוס: \n https://app.shabus.co.il/register/").then().catch();
+//     }
     this.navCtrl.pop();
   }
 

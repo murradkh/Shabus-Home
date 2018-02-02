@@ -10,6 +10,7 @@ import { MockBackend } from '@angular/http/testing';
 import { HttpModule, XHRBackend } from '@angular/http';
 import {DebugElement} from "@angular/core";
 import {By} from "@angular/platform-browser";
+// import {  XHRBackend } from '@angular/http';
 
 
 describe('MyClientPage Component:', () => {
@@ -79,7 +80,6 @@ it("The title of the page Should be 'זיהוי נוסע'",()=>{
     el = fixture.debugElement.query(By.css('ion-title')); 
 expect(el.nativeElement.textContent.trim()).toBe('זיהוי נוסע');
 });
-
 it("Testing 'Change detection' of the PhoneNumber Input",()=>{
   el=fixture.debugElement.query(By.css('ion-input'));
   fixture.detectChanges();
@@ -88,16 +88,21 @@ it("Testing 'Change detection' of the PhoneNumber Input",()=>{
   fixture.detectChanges(); 
   expect(el.attributes["ng-reflect-model"]).toBe("052");
 });
+xit("Testing 'Change detection' of the Client Counter",()=>{
+  el=fixture.debugElement.query(By.css('ion-item'));
+console.log(el);
+component.clientCounter++;
+fixture.detectChanges(); 
+console.log(el);
+
+
+});
 xit("Testing 'Change detection' of the Add button",()=>{
-    el=fixture.debugElement.query(By.css("ion-header"));
+    el=fixture.debugElement.query(By.css("ion-item"));
     console.log(el);
-    el=fixture.debugElement.query(By.css("ion-content padding"));
-    console.log(el);
+  
     // expect(component.removeClient).toHaveBeenCalled();
 
-// console.log(el);
-// el=fixture.debugElement.query(By.css("ion-icon .add"));
-// console.log(el);
 });
 xit("Testing 'Change detection' of the Remove button",()=>{
 

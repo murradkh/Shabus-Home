@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController,AlertController } from 'ionic-angular';
-// import { Authunication} from '../../services/serverside'
+import { Authunication} from '../../services/serverside'
 import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
 import{ LoadingController} from 'ionic-angular';
 
@@ -15,6 +15,7 @@ export class MyClientPage {
   phoneNumber: string="";
 
   constructor(public navCtrl: NavController,
+              private auth:Authunication,
               private Loadingcontrol:LoadingController,
               private alert:AlertController) {
 
@@ -34,19 +35,28 @@ export class MyClientPage {
   send(){
      const loading=this.Loadingcontrol.create({
 content:' ...בדיקת ניתונים',
-duration:2500
+// duration:2500
     });
-     loading.present();
-loading.onDidDismiss(()=>{
+if(this.phoneNumber=="0522979700"){
+  loading.dismiss();
+  const alert=this.alert.create({
+  title:"הפרטים נקלטו",
+buttons:['Ok']
+
+});
+alert.present();
+}else  {
+  loading.dismiss();
   this.navCtrl.push(MyMoovitPage,this.phoneNumber);
   
-});
-  //  this.auth.getuser().getToken().then( (token:string) => {
+}
+  //    loading.present();
+  //      this.auth.getuser().getToken().then( (token:string) => {
 
-//    this.auth.send(token).subscribe((response:any) => {
-//      loading.dismiss();
-//   var x=response.json();
-//      console.log(x);
+  //  this.auth.send(token).subscribe((response:any) => {
+  //    loading.dismiss();
+  // var x=response.json();
+  //    console.log(x);
 //       let data={};
 //       for (let prop in x) {
 //       data=x[prop]
@@ -65,21 +75,23 @@ loading.onDidDismiss(()=>{
 // }
 
 
-      // }
-      // if(check==false){
+//       }
+//       if(check==false){
 // }
 
 
 
-  //  },
-  //  error => {
-  //    loading.dismiss();
-  //    console.log(error);
+//    },
+//    error => {
+//      loading.dismiss();
+//      console.log(error);
   //  }
   //  );
    
 
   //  });
+
+ 
 
   }
 
