@@ -22,7 +22,7 @@ getuser(){
 
 send(token:string){
     const userid=this.getuser().uid;
-    return this.http.get("https://shapus-ecbb4.firebaseio.com/"+userid+"/phonenumder.json?auth="+token);
+    return this.http.get("https://shapus-ecbb4.firebaseio.com/"+userid+"/number.json?auth="+token);
 }
 
 }

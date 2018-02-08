@@ -37,26 +37,18 @@ export class MyClientPage {
 content:' ...בדיקת ניתונים',
 // duration:2500
     });
-if(this.phoneNumber=="0522979700"){
-  loading.dismiss();
-  const alert=this.alert.create({
-  title:"הפרטים נקלטו",
-buttons:['Ok']
+     loading.present();
+       this.auth.getuser().getToken().then((token:string) => {
+   this.auth.send(token).subscribe((response:any) => {
+     loading.dismiss();
+  var x=response.json();
+     console.log(x);
 
-});
-alert.present();
-}else  {
-  loading.dismiss();
-  this.navCtrl.push(MyMoovitPage,this.phoneNumber);
-  
+       });
+       });
+
 }
-  //    loading.present();
-  //      this.auth.getuser().getToken().then( (token:string) => {
-
-  //  this.auth.send(token).subscribe((response:any) => {
-  //    loading.dismiss();
-  // var x=response.json();
-  //    console.log(x);
+}
 //       let data={};
 //       for (let prop in x) {
 //       data=x[prop]
@@ -92,20 +84,4 @@ alert.present();
   //  });
 
  
-
-  }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
 
