@@ -3,11 +3,13 @@ import { IonicModule } from 'ionic-angular';
 import {} from 'jasmine';
 import { MyClientPage } from './my-client';
 import {  NavController,AlertController } from 'ionic-angular';
-import { Authunication} from '../../services/serverside'
+//import { Authunication} from '../../services/serverside'
 import{ LoadingController} from 'ionic-angular';
 import { AlertControllerMock,NavControllerMock, LoadingControllerMock} from 'ionic-mocks';
-import { MockBackend } from '@angular/http/testing';
-import { HttpModule, XHRBackend } from '@angular/http';
+//import { MockBackend } from '@angular/http/testing';
+// import { HttpModule, XHRBackend } from '@angular/http';
+ import { HttpModule  } from '@angular/http';
+
 import {DebugElement} from "@angular/core";
 import {By} from "@angular/platform-browser";
 // import {  XHRBackend } from '@angular/http';

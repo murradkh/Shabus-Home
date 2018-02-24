@@ -82,7 +82,7 @@ clearInterval(this.interval);
       
       },4000);
     
-    }
+    }else clearInterval(this.interval);
   }
 
 

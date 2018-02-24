@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController,AlertController } from 'ionic-angular';
 import { Authunication} from '../../services/serverside'
-import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
+//import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
 import{ LoadingController} from 'ionic-angular';
 
 @IonicPage()
@@ -41,6 +41,7 @@ content:' ...בדיקת ניתונים',
        this.auth.getuser().getToken().then((token:string) => {
    this.auth.send(token).subscribe((response:any) => {
      loading.dismiss();
+     console.log(response);
   var x=response.json();
      console.log(x);
 
