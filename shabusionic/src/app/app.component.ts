@@ -52,10 +52,6 @@ this.auth.authnicated=false;
     ];
   }
 
-  initializeApp() {
-   
-  }
-
   openPage(page) {
 
         this.nav.setRoot(page.component);

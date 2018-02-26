@@ -22,35 +22,38 @@
 
 
 
-//   // let fixture;
-//   // let MyAppComponent;
-//   // beforeEach(() => {
-//   //   TestBed.configureTestingModule({
-//   //     declarations: [MyApp],
-//   //     imports: [
-//   //       HttpModule,
-//   //       IonicModule.forRoot(MyApp)
-//   //     ],
-//   //     providers: [
-//   //       { provide: StatusBar, useClass: StatusBarMock },
-//   //       { provide: SplashScreen, useClass: SplashScreenMock },
-//   //       { provide: Platform, useClass: PlatformMock },
-//   //       Authunication,
-//   //       Geolocation
-//   //     ]
-//   //   })
-//   // });
+//   let fixture;
+//   let MyAppComponent;
+//   beforeEach(() => {
+//     TestBed.configureTestingModule({
+//       declarations: [MyApp],
+//       imports: [
+//         HttpModule,
+//         IonicModule.forRoot(MyApp)
+//       ],
+//       providers: [
+//         { provide: StatusBar, useClass: StatusBarMock },
+//         { provide: SplashScreen, useClass: SplashScreenMock },
+//         { provide: Platform, useClass: PlatformMock },
+//         Authunication,
+//         Geolocation
+//       ]
+//     })
+//   });
 
-//   // beforeEach(() => {
-//   //   fixture = TestBed.createComponent(MyApp);
-//   //   MyAppComponent = fixture.componentInstance;
-//   // });
+//   beforeEach(() => {
+//     fixture = TestBed.createComponent(MyApp);
+//     MyAppComponent = fixture.componentInstance;
+//   });
 
-//   // it('should be created', () => {
-//   //  expect(MyAppComponent instanceof MyApp).toBe(true);
-//   // });
-//   // it("The Root page is MyDriverLoginPage"),()=>{
-//   //   expect(MyAppComponent.rootPage instanceof MyDriverLoginPage).toBe(true);
-
-//   // }
+//   it('should be created', () => {
+//    expect(MyAppComponent instanceof MyApp).toBe(true);
+   
+//   });
+//   it("The Root page is MyDriverLoginPage"),()=>{
+//     expect(MyAppComponent.rootPage instanceof MyDriverLoginPage).toBe(true);
+//   }
+//   it('should have Three pages', () => {
+//     expect(MyAppComponent.pages.length).toBe(3);
+//   });
 // });
