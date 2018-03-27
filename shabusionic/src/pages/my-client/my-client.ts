@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController,AlertController } from 'ionic-angular';
-import { Authunication} from '../../services/serverside'
+import { Authunication} from '../../services/service'
 //import { MyMoovitPage } from '../my-moovit/my-moovit';//--------//
 import{ LoadingController} from 'ionic-angular';
+import{MyDriverLoginPage} from '../my-driver-login/my-driver-login'
 
 @IonicPage()
 @Component({
@@ -20,6 +21,18 @@ export class MyClientPage {
               private alert:AlertController) {
 
   }
+  ngOnInit() {
+    setTimeout(() => {///set timeout for the case of the shift is over
+      const alert = this.alert.create({
+        title: "המשמרת הסתיימה",
+        buttons: ['Ok']
+      });
+      alert.present();
+      this.auth.logout()
+      this.navCtrl.setRoot(MyDriverLoginPage);
+    },5000);////6 hours =  21600000 miliseconds
+  }
+
 
     addClient(){
       if(this.clientCounter<5)
@@ -33,20 +46,20 @@ export class MyClientPage {
     }
   }
   send(){
-     const loading=this.Loadingcontrol.create({
-content:' ...בדיקת ניתונים',
-// duration:2500
-    });
-     loading.present();
-       this.auth.getuser().getToken().then((token:string) => {
-   this.auth.send(token).subscribe((response:any) => {
-     loading.dismiss();
-     console.log(response);
-  var x=response.json();
-     console.log(x);
+//      const loading=this.Loadingcontrol.create({
+// content:' ...בדיקת ניתונים',
+// // duration:2500
+//     });
+//      loading.present();
+//        this.auth.getuser().getToken().then((token:string) => {
+//    this.auth.send(token).subscribe((response:any) => {
+//      loading.dismiss();
+//      console.log(response);
+//   var x=response.json();
+//      console.log(x);
 
-       });
-       });
+//        });
+//        });
 }
 }
 //       let data={};

@@ -29789,6 +29789,10 @@ page-my-driver-login {
   color: red;
 }
 
+ion-input.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+
 ion-input {
   font-size: 20px;
   border: 1px solid;

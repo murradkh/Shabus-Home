@@ -3,7 +3,7 @@ import { IonicModule } from 'ionic-angular';
 import { } from 'jasmine';
 import { MyClientPage } from './my-client';
 import { NavController, AlertController } from 'ionic-angular';
-import { Authunication } from '../../services/serverside'
+import { Authunication } from '../../services/service'
 import { LoadingController } from 'ionic-angular';
 import { AlertControllerMock, NavControllerMock, LoadingControllerMock } from 'ionic-mocks';
 import { MockBackend } from '@angular/http/testing';
