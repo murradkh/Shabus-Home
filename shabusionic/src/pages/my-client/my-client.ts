@@ -30,7 +30,7 @@ export class MyClientPage {
       alert.present();
       this.auth.logout()
       this.navCtrl.setRoot(MyDriverLoginPage);
-    },5000);////6 hours =  21600000 miliseconds
+    },21600000);////6 hours =  21600000 miliseconds
   }
 
 

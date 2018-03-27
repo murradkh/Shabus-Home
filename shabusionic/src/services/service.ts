@@ -5,7 +5,7 @@ import { Http } from '@angular/http';
 
 @Injectable()
 export class Authunication {
-    public authnicated: boolean = false;
+   // public authnicated: boolean = false;
     constructor(private http: Http) {
 
     }
@@ -18,7 +18,7 @@ export class Authunication {
     }
     logout() {
         localStorage.clear();
-        
+
         // firebase.auth().signOut();
     }
     // getuser(){

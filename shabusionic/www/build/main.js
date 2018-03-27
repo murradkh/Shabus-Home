@@ -37758,9 +37758,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 // import firebase from 'firebase';
 var Authunication = (function () {
+    // public authnicated: boolean = false;
     function Authunication(http) {
         this.http = http;
-        this.authnicated = false;
     }
     Authunication.prototype.signin = function (Data) {
         // return firebase.auth().signInWithEmailAndPassword(email,password);
@@ -55961,7 +55961,7 @@ var MyClientPage = (function () {
             alert.present();
             _this.auth.logout();
             _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__my_driver_login_my_driver_login__["a" /* MyDriverLoginPage */]);
-        }, 5000); ////6 hours =  21600000 miliseconds
+        }, 21600000); ////6 hours =  21600000 miliseconds
     };
     MyClientPage.prototype.addClient = function () {
         if (this.clientCounter < 5)
@@ -55992,7 +55992,7 @@ var MyClientPage = (function () {
 MyClientPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-my-client',template:/*ion-inline-start:"C:\Users\admin\Desktop\final-project-master\final-project\shabusionic\src\pages\my-client\my-client.html"*/'\n\n<ion-header>\n\n  <ion-navbar color="dark" text-center>\n    <button ion-button menuToggle right>\n      <ion-icon name="menu" ></ion-icon>\n    </button>\n    <ion-title text-center>זיהוי נוסע</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n<img  src="images/icon.png">\n  <ion-input type="number" placeholder="מספר טלפון" text-center [(ngModel)]="phoneNumber" margin-top ></ion-input>\n  <ion-item >\n<ion-icon  class="add" name="remove-circle" (click)="removeClient()" padding></ion-icon> \n<div id="clientCounterDiv">{{clientCounter}}</div>\n<ion-icon class="remove" name="add-circle" (click)="addClient()" padding></ion-icon>\n</ion-item>\n\n<button type="button" ion-button block color="primary" large text-center margin-top (click)="send()">הירשם לנסיעה</button>\n</ion-content>\n\n\n\n\n\n'/*ion-inline-end:"C:\Users\admin\Desktop\final-project-master\final-project\shabusionic\src\pages\my-client\my-client.html"*/
+        selector: 'page-my-client',template:/*ion-inline-start:"C:\Users\admin\Desktop\final-project-master\final-project\shabusionic\src\pages\my-client\my-client.html"*/'<ion-header>\n\n  <ion-navbar color="dark" text-center>\n    <button ion-button menuToggle right>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title text-center>זיהוי נוסע</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <img src="images/icon.png">\n  <ion-input type="number" placeholder="מספר טלפון" text-center [(ngModel)]="phoneNumber" margin-top></ion-input>\n  <ion-item>\n    <ion-icon class="add" name="remove-circle" (click)="removeClient()" padding></ion-icon>\n    <div id="clientCounterDiv">{{clientCounter}}</div>\n    <ion-icon class="remove" name="add-circle" (click)="addClient()" padding></ion-icon>\n  </ion-item>\n\n  <button type="button" ion-button block color="primary" large text-center margin-top (click)="send()">הירשם לנסיעה</button>\n</ion-content>'/*ion-inline-end:"C:\Users\admin\Desktop\final-project-master\final-project\shabusionic\src\pages\my-client\my-client.html"*/
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__services_service__["a" /* Authunication */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_service__["a" /* Authunication */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* AlertController */]) === "function" && _d || Object])
 ], MyClientPage);
@@ -77623,10 +77623,11 @@ MyMoovitPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(187);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_service__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_my_client_my_client__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_my_coupons_my_coupons__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_my_shekel_per_km_my_shekel_per_km__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_my_driver_login_my_driver_login__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_my_client_my_client__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_my_coupons_my_coupons__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_my_shekel_per_km_my_shekel_per_km__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_geolocation__ = __webpack_require__(184);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -77643,6 +77644,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 // import firebase from 'firebase';
 
+ //--------//
  //--------//
  //--------//
  //--------//
@@ -77669,12 +77671,6 @@ var MyApp = (function () {
         //       authDomain: "shapus-ecbb4.firebaseapp.com",
         //     });
         // firebase.auth().onAuthStateChanged(user => {
-        var token = localStorage.getItem('token');
-        console.log(token);
-        if (token != null) {
-        }
-        else {
-        }
         //   if(user){
         //     this.nav.setRoot(MyClientPage);
         //     menuCtrl.enable(true, 'myMenu');
@@ -77686,17 +77682,30 @@ var MyApp = (function () {
         // });
         // used for an example of ngFor and navigation
         this.pages = [
-            { title: 'נוסעים', component: __WEBPACK_IMPORTED_MODULE_5__pages_my_client_my_client__["a" /* MyClientPage */] },
-            { title: 'קופונים', component: __WEBPACK_IMPORTED_MODULE_6__pages_my_coupons_my_coupons__["a" /* MyCouponsPage */] },
-            { title: 'שקל לק"מ', component: __WEBPACK_IMPORTED_MODULE_7__pages_my_shekel_per_km_my_shekel_per_km__["a" /* MyShekelPerKmPage */] }
+            { title: 'נוסעים', component: __WEBPACK_IMPORTED_MODULE_6__pages_my_client_my_client__["a" /* MyClientPage */] },
+            { title: 'קופונים', component: __WEBPACK_IMPORTED_MODULE_7__pages_my_coupons_my_coupons__["a" /* MyCouponsPage */] },
+            { title: 'שקל לק"מ', component: __WEBPACK_IMPORTED_MODULE_8__pages_my_shekel_per_km_my_shekel_per_km__["a" /* MyShekelPerKmPage */] }
         ];
     }
+    MyApp.prototype.ngOnInit = function () {
+        var token = localStorage.getItem('token');
+        console.log(token);
+        if (token != null) {
+            this.nav.setRoot(__WEBPACK_IMPORTED_MODULE_6__pages_my_client_my_client__["a" /* MyClientPage */]);
+            this.menuCtrl.enable(true, 'myMenu');
+            //this.auth.authnicated=true;
+        }
+        else {
+            this.nav.setRoot(__WEBPACK_IMPORTED_MODULE_5__pages_my_driver_login_my_driver_login__["a" /* MyDriverLoginPage */]);
+            //this.auth.authnicated=false;
+        }
+    };
     MyApp.prototype.openPage = function (page) {
         this.nav.setRoot(page.component);
         this.menuCtrl.close();
     };
     MyApp.prototype.logout = function () {
-        //  this.menuCtrl.enable(false, 'myMenu'); 
+        this.menuCtrl.enable(false, 'myMenu');
         clearInterval(this.interval);
         this.auth.logout();
     };
@@ -77725,7 +77734,7 @@ __decorate([
 MyApp = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"C:\Users\admin\Desktop\final-project-master\final-project\shabusionic\src\app\app.html"*/'<ion-menu  [content]="content" side="right">\n  <ion-header>\n    <ion-toolbar color="dark">\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button  ion-item *ngFor="let p of pages" (click)="openPage(p)" text-right>\n        {{p.title}}\n      </button>\n      <ion-item>\n        <ion-label text-right>מיקום</ion-label>\n        <ion-toggle item-start [(ngModel)]="isToggled" (ionChange)="whenToggle()"></ion-toggle>\n      </ion-item>  \n    </ion-list>\n\n    <button ion-button color="blue" class="logoutCmd" (click)="logout()" menuClose> התנתק </button> \n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content ></ion-nav>'/*ion-inline-end:"C:\Users\admin\Desktop\final-project-master\final-project\shabusionic\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__services_service__["a" /* Authunication */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__services_service__["a" /* Authunication */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _g || Object])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__services_service__["a" /* Authunication */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__services_service__["a" /* Authunication */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_9__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _g || Object])
 ], MyApp);
 
 var _a, _b, _c, _d, _e, _f, _g;

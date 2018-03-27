@@ -6,8 +6,6 @@ import { Response } from '@angular/http';
 import { NgForm } from '@angular/forms';
 import { MyClientPage } from '../my-client/my-client';
 
-
-
 @IonicPage()
 @Component({
   selector: 'page-my-driver-login',
