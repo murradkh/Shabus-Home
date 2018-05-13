@@ -31,13 +31,12 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 
 |Category|Status|
 |---|---|
-| Version Control System| [git](https://git-scm.com/) & [github](https://github.com/) |
-| Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/) |
+| Version Control System| [git](https://git-scm.com/) & [github](https://github.com/) & [Heroku](https://dashboard.heroku.com/)|
+| Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/), [PyCharm](https://www.jetbrains.com/pycharm/) |
 | Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/Shabus-Teminal-App/Lobby) |
 | Project Management Board| [Mission Board](https://github.com/murradkh/Shabus-Teminal-App/projects) |
-| Contributors | [Here](https://github.com/murradkh/Shabus-Teminal-App/graphs/contributors)
-| Documnetation | [![Inline docs](http://inch-ci.org/github/jce-il/project-template.svg?branch=master)](http://inch-ci.org/github/jce-il/project-template) |
+| Contributors | [Here](https://github.com/murradkh/Shabus-Teminal-App/graphs/contributors) |
 | Diary | [My Diary](https://www.my-diary.org/read/d/929360)|
-|Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/)
+|Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/), [Python](https://docs.python.org/3/)
 |Mobile Platforms| Android,IOS,Windows|
 
