@@ -31,12 +31,13 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 
 |Category|Status|
 |---|---|
-| Version Control System| [git](https://git-scm.com/) & [github](https://github.com/) & [Heroku](https://dashboard.heroku.com/)|
+| Version Control System| [git](https://git-scm.com/)|
 | Recommended IDE | [VSCode](https://code.visualstudio.com), [Android Studio](https://developer.android.com/studio/index.html), [XCode](https://developer.apple.com/xcode/), [PyCharm](https://www.jetbrains.com/pycharm/) |
 | Group Chat | [![Join the chat at https://gitter.im/jce-il/project-template](https://badges.gitter.im/jce-il/project-template.svg)](https://gitter.im/Shabus-Teminal-App/Lobby) |
 | Project Management Board| [Mission Board](https://github.com/murradkh/Shabus-Teminal-App/projects) |
 | Contributors | [Here](https://github.com/murradkh/Shabus-Teminal-App/graphs/contributors) |
 | Diary | [My Diary](https://www.my-diary.org/read/d/929360)|
 |Framework| [Angular 4](https://angular.io/)(typescript,html,javascript), [Ionic](http://ionicframework.com/), [Python](https://docs.python.org/3/)
-|Mobile Platforms| Android,IOS,Windows|
+|Mobile Platforms| Android, IOS, Windows|
+|Cloud Platforms| [Heroku](https://dashboard.heroku.com/) & [github](https://github.com/)|
 
