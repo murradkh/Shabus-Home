@@ -38,8 +38,8 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 | Project Management Board| [Mission Board](https://github.com/murradkh/Shabus-Teminal-App/projects) |
 | Contributors | [Here](https://github.com/murradkh/Shabus-Teminal-App/graphs/contributors) |
 | Diary | [My Diary](https://www.my-diary.org/read/d/929360)|
-|Framework| [Angular 4](https://angular.io/), [Ionic](http://ionicframework.com/), [Flask](http://flask.pocoo.org/)
-|Mobile Platforms| Android, IOS, Windows|
+|Framework| [Angular 4](https://angular.io/) & [Ionic](http://ionicframework.com/) & [Flask](http://flask.pocoo.org/)
+|Mobile Platforms| Android & IOS & Windows|
 |Cloud Platforms| [Heroku](https://dashboard.heroku.com/) & [github](https://github.com/) & [MongoDB](https://www.mongodb.com/)|
 |Programming languages | [JavaScript](https://www.javascript.com/) & [TypeScript](https://www.typescriptlang.org/) & [Python](https://docs.python.org/3/)
 
