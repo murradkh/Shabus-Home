@@ -19,7 +19,7 @@ Shabus is a cooperative Transportation Association in Jerusalem, it offers a tra
 - This repository will be the "Information-Station" of our whole project. any relevant info about the development process will be found here under it's relevant branch in [Wiki.](https://github.com/murradkh/Shabus-Teminal-App/wiki) As the software code,documents,diagrams and prototype realeses will be prodcasted automatically to this repositry.
 
 ## Code Repositories
-- [Server Side](https://github.com/murradkh/Shabus-API/settings)
+- [Server Side](https://github.com/murradkh/Shabus-API/)
 - [Client Side](https://github.com/murradkh/Shabus-Mobile-App)
 
 ## Staff
